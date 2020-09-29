@@ -1,3 +1,144 @@
-div {
-    text-align: center;
+#header {
+    text-align: right;
+    margin: 10px;
+}
+
+a {
+    margin: 10px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    width: 80%;
+}
+
+#buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    font-size: 16px;
+    height: 36px;
+    min-width: 54px;
+    margin: 30px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    border: 1px solid #f2f2f2;
+    color: #5F6368;
+    border-radius: 6px;
+}
+
+.button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #a6a6a6;
+    color: #222
+}
+
+#advSearchButton {
+    font-size: 16px;
+    height: 36px;
+    min-width: 120px;
+    margin-top: 30px;
+    background-color: #4d90fe;
+    cursor: pointer;
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+}
+
+#advSearchButton:hover {
+    background-color: #357ae8;
+    border: 1px solid #2f5bb7;
+    color: #fff
+}
+
+#advButton {
+    width: 45%;
+    float: right;
+    clear: both;
+}
+
+#searchbar {
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    height: 44px;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#searchbar:focus {
+    outline: none;
+}
+
+.searchbarArea {
+    width: auto;
+    max-width: 550px;
+    display: flex;
+    margin: 0 auto;
+}
+
+#logo {
+    display: flex;
+    height: 120px;
+
+}
+
+img {
+    width: 100px;
+    height: 100px; 
+}
+
+.searchbarSection {
+    width: 100%;
+    clear: both;
+}
+
+.instructionText {
+    display: block;
+    width: 16%;
+    font-size: 16px;
+    height: 42px;
+    font-weight: 500;
+    color: #333;
+}
+
+.advancedSearchbarLabel {
+    float: left;
+    clear: both;
+    width: 16%;
+    min-width: 167px;
+    height: 42px;
+    color: #222;
+    line-height: 16px;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.advancedSearchbar {
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.advSearchbar {
+    width: 100%;
 }
